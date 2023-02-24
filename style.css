@@ -1,0 +1,105 @@
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    background-color: hsl(216, 12%, 8%);
+    color: white;
+}
+.box-container{
+    max-width: 250px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+.box-container-two{
+    max-width: 250px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 10px;
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+}
+.rating-box{
+    width: 100%;
+    padding: 20px;
+}
+.rating-box-two{
+    width: 100%;
+    padding: 20px;
+}
+.star{
+background-color: hsla(229, 19%, 23%, 0.712);
+border-radius: 50%;
+padding: 5px;
+margin-bottom: 15px;
+}
+.box-container h2 {
+    margin-bottom: 10px;
+}
+.box-container p{
+    margin-bottom: 15px;
+    font-weight: lighter;
+    font-size: 12px;
+}
+.ratings{
+    display: flex;
+    justify-content: space-between;
+}
+.rate-score{
+    background-color:  hsla(229, 19%, 23%, 0.712);
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 10px;
+    margin-bottom: 15px;
+    color: white;
+    border: none;
+    opacity: 0.4;
+    cursor: pointer;
+}
+.rate-score:hover{
+    background-color: orange;
+    opacity: 1;
+}
+.rate-score:focus{
+    background-color: hsl(217, 12%, 63%);
+    opacity: 1;
+}
+.btn{
+    min-width: 200px;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color:hsl(25, 97%, 53%);
+    transform: ease-in-out 1s;
+}
+.box-container-two p{
+    text-align: center;
+}
+.box-container .bold{
+    font-size: 20px;
+    font-weight: bold;
+}
+.box-container-two .select{
+    background-color: hsla(229, 19%, 23%, 0.712);
+    color: hsl(25, 97%, 53%);
+    padding: 5px;
+    border-radius: 15px;
+}
